@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: row;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.bigtext {
+    font-size: 128px;
+    padding-left: 100px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: black;
+    color: white;
+    width: 700px;
+    border-radius: 10px;
+}
+
+.box p {
+    padding: 20px;
+    text-align: center;
+}
+
+@media screen and(max-wdith:600px){
+    font-size: 10px;
+    flex-direction: column ;
+}
