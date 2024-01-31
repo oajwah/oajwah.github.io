@@ -1,0 +1,114 @@
+
+#Row1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-left: 210px;
+    width: 800px;
+}
+
+#head{
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px; 
+    margin-top: 00px;
+}
+#Row2{
+    display: flex;
+
+}
+
+.cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    width: 230px;
+    height: 150px;
+    text-align: center;
+    background-size: cover; 
+    background-position: center; 
+}
+
+.cell1 {
+    background-image: url('images/download\ \(1\).jpg'); 
+}
+
+.cell2 {
+    background-image: url('images/images.png'); 
+}
+
+.cell3 {
+    background-image: url('images/download.jpg'); 
+}
+
+
+
+
+#skills{
+    display: flex;
+    flex-direction: column;
+}
+
+.logo{
+    
+}
+
+#Row3 {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    border-style: solid;
+}
+
+#contact-table {
+    display: flex;
+    justify-content: space-evenly;
+    border-style: dotted;
+}
+
+#contact-table > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px; 
+    height: 60px; 
+    border-style: dotted;
+    border-radius: 50%; 
+    padding: 10px;
+}
+
+.fa {
+    font-size: 24px; 
+}
+
+
+.fa-instagram {
+    color: #E4405F; 
+}
+
+
+.fa-linkedin {
+    color: #0077B5; 
+}
+
+
+.fa-github {
+    color: #333; 
+}
+
+
+.fa-envelope {
+    color: #D14836; 
+}
+
+
+
+  
+#pic1{
+    width: 200px;
+}
+#contacth{
+    text-align: center;
+}
